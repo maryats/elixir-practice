@@ -4,6 +4,7 @@
 	<h2>Factor Results</h2>
 
 	<p>Factors of <%= @x %>:</p>
-	<p><%= Enum.join(@factors, ", ") %></p>
+	<!--<%= Enum.join(@factors, ", ") %>-->
+	<p><%= inspect(@factors) %></p>
   </div>
 </div>

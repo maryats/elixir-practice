@@ -1,11 +1,6 @@
 defmodule Practice.Factor do
-	def parse_int(text) do
-		{num, _} = Integer.parse(text)
-		num
-	end
-
 	def factor(x) do
-		factor(parse_int(x), [])
+		factor(x, [])
 	end
 
 	# while x is even, divide by two

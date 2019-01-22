@@ -12,7 +12,6 @@ defmodule Practice do
   end
 
   def calc(expr) do
-    # This is more complex, delegate to lib/practice/calc.ex
     Practice.Calc.calc(expr)
   end
 
